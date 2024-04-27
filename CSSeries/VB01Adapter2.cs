@@ -2,6 +2,9 @@ using VBClassLibrary;
 
 namespace AdapterPattern.CSSeries;
 
+/// <summary>
+/// 継承によるAdapterパターン
+/// </summary>
 internal class VB01Adapter2 : VB01, ICSSeries
 {
   private VB01Adapter2() { }
