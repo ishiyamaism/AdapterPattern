@@ -42,6 +42,12 @@ class Program
                     Console.WriteLine("Press Button: B");
                     _csSeries = VB01Adapter.Instance;
                     Console.WriteLine("Active Mode: VB.dll");
+                    break;
+
+                case ConsoleKey.V:
+                    Console.WriteLine("Press Button: V");
+                    _csSeries = VB01Adapter2.Instance;
+                    Console.WriteLine("Active Mode2: VB.dll");
 
                     break;
                 default:
