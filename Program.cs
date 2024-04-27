@@ -40,11 +40,10 @@ class Program
 
                 case ConsoleKey.B:
                     Console.WriteLine("Press Button: B");
-                    var vbValue = new VB01().GetValue();
-                    Console.WriteLine($"CALL: VB.dll: {vbValue}m/s2");
+                    _csSeries = VB01Adapter.Instance;
+                    Console.WriteLine("Active Mode: VB.dll");
 
                     break;
-
                 default:
                     break;
             }
